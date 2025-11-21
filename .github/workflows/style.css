@@ -1,0 +1,126 @@
+.logo{
+    height: 80px;
+    width: 80px;
+   border-radius: 50%;
+}
+.carousel-pic{
+    background-size: cover;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+.nav-link{
+    margin-right: 20px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900 bolder;
+    color: #f4f2f2;
+}
+.nd{
+    background-color: #021d3a;
+    color: white;
+  }
+.heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+  font-weight: bold;
+}
+.shirt-image {
+  border-radius: 16px;
+}
+.shirts{
+  width: 300px;
+}
+.shirt-name {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.originalprice {
+  text-decoration: line-through;
+}
+.offerprice {
+  color: red;
+}
+.footer{
+  background-color: #021d3a;
+  height: 500px;
+  width: 100vw;
+}
+.details{
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.hline{
+  
+  background-color: white;
+}
+.insta{
+  color: white;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 24px;
+}
+.instagram{
+  color: white;
+  margin-left: 20px;
+  
+  font-size: 18px;
+}
+.botton:hover{
+  background-color:#fe0606;
+   border: none;
+    transform: translatex(4px)(-4px);
+    transition: all 0.3s ease-in-out;
+
+}
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 20px;
+  gap: 40px;
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.about-image-box {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.about-image:hover {
+  transform: scale(1.03);
+}
